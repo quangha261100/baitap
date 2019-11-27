@@ -1,0 +1,29 @@
+#header{
+	width: 100%;
+	height: 600px;
+	background-color: #eaeaea;
+	position: relative;
+}
+
+#headerBg{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: all 1.5s;
+	background-size: cover;
+}
+
+#caption{
+	position: absolute;
+	top: 40%;
+	left: 43%;
+	transition: 1.5s;
+	opacity: 0;
+}
+
+#caption > h1{
+	color: #a50000;
+}
